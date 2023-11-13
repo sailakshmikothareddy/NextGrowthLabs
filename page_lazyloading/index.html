@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width='device-width', initial-scale=1.0">
+    <title>Lazy pagination</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Castoro+Titling&family=Caveat&family=Dancing+Script&family=Delicious+Handrawn&family=Fasthand&family=Poppins:wght@500&family=Satisfy&display=swap" rel="stylesheet">
+    <!-- Bootstrap  CSS -->
+    <link href="node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container w-100  mt-5 d-flex  align-items-center justify-content-center flex-column   ">
+        <h1 class=" hedding w-100 bg-white p-4 text-center position-fixed top-0 text-uppercase text-primary " >Lazy loader</h1>
+        <div class="items w-100 h-100  p-1 d-flex bg-white d-grid gap-5 flex-wrap justify-content-evenly "></div>
+    </div>
+    <div id="loader" class="loader w-100 d-flex align-items-center justify-content-center  bg-white text-center text-bold"><p>Loading...</p>
+    <img src="7YUL.gif" class="loader-img"></div>
+
+    <!-- Bootstrap  JavaScript -->
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

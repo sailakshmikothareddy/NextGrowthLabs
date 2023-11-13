@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Amita&family=Audiowide&family=Baloo+2:wght@500&family=Comfortaa:wght@400;500;700&family=Fredoka+One&family=Grand+Hotel&family=Homemade+Apple&family=Kanit:ital,wght@1,300&family=Montserrat:ital,wght@0,100;0,500;1,300;1,900&family=Nunito:ital,wght@0,300;0,400;1,600&family=Old+Standard+TT&family=Oswald:wght@200;400&family=Poppins:wght@100;300&family=Prompt:ital,wght@0,400;1,300&family=Racing+Sans+One&family=Rubik+Marker+Hatch&family=Secular+One&family=Syncopate&family=Ubuntu:wght@700&family=Yantramanav:wght@500&display=swap");
+
+body {
+   background-color: #20252c;
+  font-family: 'poppins',sans-serif;
+}
+h1{
+  width: 100%;
+  height: 1rem;
+  padding: 1rem;
+  text-align: center;
+  text-transform: capitalize;
+  color: white;
+}
+.display_structure {
+  width: 25rem;
+  margin: 0 auto;
+  padding: 20px;
+  position: relative;
+transition: .5s ease-in;
+}
+
+ul {
+  list-style-type: none;
+  padding: .5rem;
+  background-color: #20252c;
+}
+
+li {
+  margin-bottom: 7px;
+  padding: 0.3rem 0;
+}
+
+.folder {
+  cursor: pointer;
+  /* font-weight: bold; */
+  padding: 0.3rem;
+  /* background-color: #6b3e0b; */
+  /* border-radius: .5rem; */
+  color: white;
+  text-align: center;
+}
+
+.buttons {
+  position: absolute;
+  /* left: 12 rem; */
+  right: 3rem;
+  top: 2.7rem;
+  z-index: 1;
+  /* background-color: #775555; */
+  /* width: 100%; */
+  display: flex;
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  cursor: pointer;
+}
+
+.active {
+  border: .1rem solid blue;
+  padding: .5rem;
+}
+
+i {
+  color: white;
+}
+
+.file {
+  cursor: pointer;
+  margin-left: 1rem;
+  color: whitesmoke;
+}
+
+.hidden {
+  display: none;
+  border: .1rem solid red;
+}
+
+.new {
+  display: none;
+}
+
+.new_filename {
+  width: 5rem;
+}
+
+form button {
+  font-weight: bold;
+}
+
+.selected {
+  border: .1rem solid #8f7f7f;
+}
+
+.message {
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+  color: white;
+}
+
+.fa-trash {
+  /* display: none; */
+  color: rgb(255, 255, 255);
+  visibility: hidden;
+
+  transition: .5s;
+}
+
+.fa-trash:hover {
+  color: rgb(176, 81, 81)
+}
+
+.trash {
+  visibility: hidden;
+  position: absolute;
+  right: 2rem;
+}
